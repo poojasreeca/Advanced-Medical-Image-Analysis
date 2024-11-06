@@ -13,6 +13,7 @@ const MedicalImageAnalysis = () => {
   const [brightness, setBrightness] = useState(100);
   const [contrast, setContrast] = useState(100);
 
+
   // Simulate AI analysis with multiple detection types
   const analyzeImage = () => {
     setLoading(true);
